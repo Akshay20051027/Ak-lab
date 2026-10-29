@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template_string
 from google import genai
 
 app = Flask(__name__)
-MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
 HTML_PAGE = """
 <!doctype html>
